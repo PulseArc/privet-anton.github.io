@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -22,12 +23,11 @@
             background-color: #389e23;
         }
     </style>
-    </style>
     <script>
         // Функция для перехода на другую страницу
         function redirectToPage() {
-            // Укажите здесь URL страницы, на которую хотите перенаправить пользователя
-            const url = "page3.html"; // Относительный путь к файлу page1.html
+            // Используем относительный путь для перехода
+            const url = "page3.html"; // Относительный путь
 
             // Переход на указанную страницу
             window.location.href = url;
@@ -35,7 +35,13 @@
     </script>
 </head>
 <body>
-    <h1>Твоё сердце подскажет куда нажимать.</h1>
+    <h1>Твоё сердце подскажет, куда нажимать.</h1>
+
+    <!-- Кнопка, вызывающая функцию redirectToPage() при нажатии -->
+    <button class="btn" onclick="redirectToPage()">Тык</button>
+</body>
+</html>
+
 
     <!-- Кнопка, вызывающая функцию redirectToPage() при нажатии -->
     <button class="btn" onclick="redirectToPage()">Тык</button>
