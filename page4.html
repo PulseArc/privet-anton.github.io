@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privet</title>
+    <title>Привет, Антон!</title>
     <style>
         /* Стиль кнопки */
         .btn {
@@ -21,6 +22,32 @@
         .btn:hover {
             background-color: #389e23;
         }
+
+        /* Основные стили для страницы */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #e30dc6;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
     <script>
         // Функция для перехода на другую страницу
@@ -34,9 +61,11 @@
     </script>
 </head>
 <body>
-    <h1>Ну всё последний раз обещаю.</h1>
+    <div class="container">
+        <h1>Ну всё, последний раз, обещаю.</h1>
 
-    <!-- Кнопка, вызывающая функцию redirectToPage() при нажатии -->
-    <button class="btn" onclick="redirectToPage()">Антон,нажми и улыбнись!</button>
+        <!-- Кнопка, вызывающая функцию redirectToPage() при нажатии -->
+        <button class="btn" onclick="redirectToPage()">Антон, нажми и улыбнись!</button>
+    </div>
 </body>
 </html>
