@@ -1,0 +1,42 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privet</title>
+    <style>
+        /* Стиль кнопки */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #e30dc6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Эффект наведения на кнопку */
+        .btn:hover {
+            background-color: #389e23;
+        }
+    </style>
+    <script>
+        // Функция для перехода на другую страницу
+        function redirectToPage() {
+            // Укажите здесь URL страницы, на которую хотите перенаправить пользователя
+            const url = "https://www.youtube.com/watch?v=zH3bSoJw5fo";
+
+            // Переход на указанную страницу
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+    <h1>Ну всё последний раз обещаю.</h1>
+
+    <!-- Кнопка, вызывающая функцию redirectToPage() при нажатии -->
+    <button class="btn" onclick="redirectToPage()">Антон,нажми и улыбнись!</button>
+</body>
+</html>
