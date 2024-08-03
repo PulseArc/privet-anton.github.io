@@ -28,7 +28,7 @@ privet-anton.github.io
         // Функция для перехода на другую страницу
         function redirectToPage() {
             // Укажите здесь URL страницы, на которую хотите перенаправить пользователя
-            const url = "file:///C:/Users/user/Desktop/Anton/page1.html";
+            const url = "page1.html;
 
             // Переход на указанную страницу
             window.location.href = url;
